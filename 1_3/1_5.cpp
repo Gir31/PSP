@@ -6,7 +6,7 @@ int main()
 	std::string str1;
 	std::string str2;
 
-	int locateA, locateB;
+	int locateA = 0, locateB = 0;
 	bool flag = false;
 
 	std::cin >> str1 >> str2;

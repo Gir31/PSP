@@ -1,26 +1,5 @@
 #include <iostream>
-#include <vector>
 #include <string>
-
-bool changeLocate(char* piece1, char* piece2)
-{
-	if (*piece1 == *piece2) return false;
-
-	char tmp = *piece1;
-	*piece1 = *piece2;
-	*piece2 = tmp;
-
-	return true;
-}
-
-void changeColor(char* piece)
-{
-	if (*piece == 'W')
-		*piece = 'B';
-	else
-		*piece = 'W';
-}
-
 void Othello(int T)
 {
 	int length;
@@ -29,35 +8,30 @@ void Othello(int T)
 
 	for (int i = 0; i < T; ++i)
 	{
-		int minCnt = 0;
-
 		std::cin >> length;
 		std::cin >> initState;
 		std::cin >> goalState;
+
+		int wtoB = 0, btoW = 0;
 
 		for (int j = 0; j < length; ++j)
 		{
 			if (initState[j] != goalState[j])
 			{
-				bool flag = true;
-				for (int k = j+1; k < length; ++k)
+				if (initState[i] == 'W')
 				{
-					if (initState[k] != goalState[k])
-						if (changeLocate(&initState[j], &initState[k])) {
-							flag = false;
-
-							minCnt++;
-							break;
-						}
+					wtoB++;
 				}
-
-				if (flag) {
-					changeColor(&initState[j]);
-					minCnt++;
+				else {
+					btoW++;
 				}
 			}
 		}
-		std::cout << minCnt << std::endl;
+
+		if (wtoB >= btoW)
+			std::cout << wtoB << std::endl;
+		else
+			std::cout << btoW << std::endl;
 	}
 }
 
