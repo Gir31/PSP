@@ -7,74 +7,99 @@ using namespace std;
 int main()
 {
 	size_t n = 0;
-	int maxY = 0, centerY = 0, pos = 0, neg = 0;
-
-	vector<int> flues;
+	int preSlope = 0;
+	vector<int> heights;
+	vector<int> slopes;
 
 	cin >> n;
 
 	for (int i = 0; i < n; ++i)
 	{
 		char chart;
-		int flue = 0;
 		cin >> chart;
 
 		switch (chart)
 		{
 		case '+':
-			pos++;
-			flue = 1;
+			if (i != 0 && (preSlope == 1)) 
+			{
+				heights.push_back(heights[i - 1] + 1);
+			}
+			else if (i != 0 && (preSlope != 1))
+			{
+				heights.push_back(heights[i - 1]);
+			}
+			else
+			{
+				heights.push_back(0);
+			}
+
+			preSlope = 1;
+
+			slopes.push_back(1);
 			break;
 		case '-':
-			neg++;
-			flue = -1;
+			if (i != 0 && (preSlope != 1))
+			{
+				heights.push_back(heights[i - 1] - 1);
+			}
+			else if (i != 0 && (preSlope == 1))
+			{
+				heights.push_back(heights[i - 1]);
+			}
+			else
+			{
+				heights.push_back(0);
+			}
+
+			preSlope = -1;
+
+			slopes.push_back(-1);
 			break;
 		case '=':
-			flue = 0;
+			if (i != 0 && (preSlope == 1))
+			{
+				heights.push_back(heights[i - 1] + 1);
+			}
+			else if (i != 0 && (preSlope != 1))
+			{
+				heights.push_back(heights[i - 1]);
+			}
+			else
+			{
+				heights.push_back(0);
+			}
+
+			preSlope = 0;
+
+			slopes.push_back(0);
 			break;
 		}
-
-		flues.push_back(flue);
 	}
 
-	maxY = max(pos, neg) - 1;
+	int maxY = *max_element(heights.begin(), heights.end());
+	int minY = *min_element(heights.begin(), heights.end());
 
-	vector<int> heights;
-	int height = 0;
-	for (int i = 0; i < n; ++i)
-	{
-		if (i != 0 && flues[i] == flues[i - 1])
-		{
-			height += flues[i];
-		}
-		
-		heights.push_back(height);
-	}
-
-	int minY = *(min_element(heights.begin(), heights.end()));
+	int graphY = maxY - minY;
 
 	for (int i = 0; i < n; ++i)
-	{
 		heights[i] -= minY;
 
-		cout << heights[i] << endl;
-	}
-
-	for (int y = maxY; y != -1; --y)
-	{
-		for(int x = 0; x < n; ++x)
+	for (int y = graphY; y > -1; --y) {
+		for (int x = 0; x < n; ++x)
 		{
-			if (heights[x] == y) {
-				switch (flues[x])
+			if (heights[x] == y)
+			{
+				switch (slopes[x])
 				{
 				case 1:
 					cout << '/';
 					break;
-				case 0:
-					cout << '_';
-					break;
 				case -1:
 					cout << '\\';
+					break;
+				case 0:
+					cout << '_';
 					break;
 				}
 			}
