@@ -21,15 +21,12 @@ int main()
 
 	int cnt = 0;
 
-	while (goalValue > 0)
+	for (auto coin = coins.rbegin(); coin != coins.rend(); ++coin)
 	{
-		for (auto coin = coins.rbegin(); coin != coins.rend(); ++coin)
+		if (goalValue >= *coin)
 		{
-			if (goalValue >= *coin)
-			{
-				cnt = cnt + (goalValue / *coin);
-				goalValue %= *coin;
-			}
+			cnt = cnt + (goalValue / *coin);
+			goalValue %= *coin;
 		}
 	}
 
