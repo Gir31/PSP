@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\4-1\\PSP\\PSP\\1_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|D:\\4-1\\PSP\\PSP\\1_3\\7_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|solutionrelative:7_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|D:\\4-1\\PSP\\PSP\\1_3\\Prac1_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|solutionrelative:Prac1_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|D:\\4-1\\PSP\\PSP\\1_3\\6_8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|solutionrelative:6_8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|D:\\4-1\\PSP\\PSP\\1_3\\6_7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|solutionrelative:6_7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|D:\\4-1\\PSP\\PSP\\1_3\\3_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|solutionrelative:3_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "7_1.cpp",
-              "DocumentMoniker": "D:\\4-1\\PSP\\PSP\\1_3\\7_1.cpp",
-              "RelativeDocumentMoniker": "7_1.cpp",
-              "ToolTip": "D:\\4-1\\PSP\\PSP\\1_3\\7_1.cpp",
-              "RelativeToolTip": "7_1.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBMAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-10T12:24:06.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "6_7.cpp",
-              "DocumentMoniker": "D:\\4-1\\PSP\\PSP\\1_3\\6_7.cpp",
-              "RelativeDocumentMoniker": "6_7.cpp",
-              "ToolTip": "D:\\4-1\\PSP\\PSP\\1_3\\6_7.cpp",
-              "RelativeToolTip": "6_7.cpp",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAkwC0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-10T11:54:37.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "6_8.cpp",
-              "DocumentMoniker": "D:\\4-1\\PSP\\PSP\\1_3\\6_8.cpp",
-              "RelativeDocumentMoniker": "6_8.cpp",
-              "ToolTip": "D:\\4-1\\PSP\\PSP\\1_3\\6_8.cpp",
-              "RelativeToolTip": "6_8.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Title": "3_1.cpp",
+              "DocumentMoniker": "D:\\4-1\\PSP\\PSP\\1_3\\3_1.cpp",
+              "RelativeDocumentMoniker": "3_1.cpp",
+              "ToolTip": "D:\\4-1\\PSP\\PSP\\1_3\\3_1.cpp",
+              "RelativeToolTip": "3_1.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-10T11:49:02.614Z",
+              "WhenOpened": "2026-04-11T08:31:55.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Prac1_1.cpp",
+              "DocumentMoniker": "D:\\4-1\\PSP\\PSP\\1_3\\Prac1_1.cpp",
+              "RelativeDocumentMoniker": "Prac1_1.cpp",
+              "ToolTip": "D:\\4-1\\PSP\\PSP\\1_3\\Prac1_1.cpp",
+              "RelativeToolTip": "Prac1_1.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-11T06:46:57.666Z",
               "EditorCaption": ""
             }
           ]
