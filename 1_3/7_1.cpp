@@ -1,20 +1,34 @@
 #include <iostream>
 #include <vector>
-#include <map>
+#include <queue>
 #include <algorithm>
 
 using namespace std;
+
+void find_route(vector<vector<pair<int, int>>>& routes, vector<int>& fodder, priority_queue<pair<int, int>>& q, int curr_shed)
+{
+	for (pair<int, int> route : routes[curr_shed])
+	{
+		if (fodder[route.first] > fodder[curr_shed] + route.second)
+		{
+			fodder[route.first] = fodder[curr_shed] + route.second;
+			
+			q.push(route);
+		}
+	}
+
+
+}
 
 int main()
 {
 	int N = 0, M = 0;
 
-	map<int, vector<pair<int, int>>> routes;
-
 	cin >> N >> M;
 
-	vector<int> fodder(N, -1);
-	fodder[0] = 0;
+	vector<vector<pair<int, int>>> routes(N + 1);
+	vector<int> fodder(N + 1, INFINITY);
+	fodder[1] = 0;
 
 	for (int i = 0; i < M; ++i)
 	{
@@ -25,23 +39,6 @@ int main()
 		routes[A_i].push_back(make_pair(B_i, C_i));
 		routes[B_i].push_back(make_pair(A_i, C_i));
 	}
-
-	for (int shed = 0; shed < N; ++shed)
-	{
-		for (pair<int, int> route : routes[shed + 1])
-		{
-			if (fodder[route.first - 1] == -1)
-			{
-				fodder[route.first - 1] = route.second + fodder[shed];
-			}
-			else
-			{
-				fodder[route.first - 1] = min(fodder[route.first - 1], fodder[shed] + route.second);
-			}
-		}
-	}
-
-	cout << fodder.back();
 
 
 	return 0;
