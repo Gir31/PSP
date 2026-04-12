@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\Prac1">
       <UniqueIdentifier>{a8d78c90-f1fe-44b8-83ae-df28d4f54d22}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Programmers">
+      <UniqueIdentifier>{443e48f1-68b1-4788-84b4-8de7f79e0e8b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="combi.cpp">
@@ -170,6 +173,15 @@
     </ClCompile>
     <ClCompile Include="Prac1_8.cpp">
       <Filter>소스 파일\Prac1</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetNumber.cpp">
+      <Filter>소스 파일\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap_shortestRoute.cpp">
+      <Filter>소스 파일\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="network.cpp">
+      <Filter>소스 파일\Programmers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
