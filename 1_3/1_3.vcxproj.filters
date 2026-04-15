@@ -40,6 +40,12 @@
     <Filter Include="소스 파일\Programmers">
       <UniqueIdentifier>{443e48f1-68b1-4788-84b4-8de7f79e0e8b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Test01">
+      <UniqueIdentifier>{b02d68cf-8e50-4a38-8370-28d797d9bbaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Backjoon">
+      <UniqueIdentifier>{017f3865-e4bc-4023-99b8-102668b4d142}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="combi.cpp">
@@ -182,6 +188,42 @@
     </ClCompile>
     <ClCompile Include="network.cpp">
       <Filter>소스 파일\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="A.cpp">
+      <Filter>소스 파일\Test01</Filter>
+    </ClCompile>
+    <ClCompile Include="B.cpp">
+      <Filter>소스 파일\Test01</Filter>
+    </ClCompile>
+    <ClCompile Include="C.cpp">
+      <Filter>소스 파일\Test01</Filter>
+    </ClCompile>
+    <ClCompile Include="D.cpp">
+      <Filter>소스 파일\Test01</Filter>
+    </ClCompile>
+    <ClCompile Include="E.cpp">
+      <Filter>소스 파일\Test01</Filter>
+    </ClCompile>
+    <ClCompile Include="F.cpp">
+      <Filter>소스 파일\Test01</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceAlignment.cpp">
+      <Filter>소스 파일\Backjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberSorting.cpp">
+      <Filter>소스 파일\Backjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberSorting2.cpp">
+      <Filter>소스 파일\Backjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="WordSorting.cpp">
+      <Filter>소스 파일\Backjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="ATM.cpp">
+      <Filter>소스 파일\Backjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="FindNumber.cpp">
+      <Filter>소스 파일\Backjoon</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
