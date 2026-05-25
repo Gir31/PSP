@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\Programmers\이진탐색">
       <UniqueIdentifier>{7937db69-b928-48a7-9442-85c7d65f80e1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Test02">
+      <UniqueIdentifier>{81945bfe-5272-4c07-878d-538c96e407bb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="combi.cpp">
@@ -263,6 +266,36 @@
     </ClCompile>
     <ClCompile Include="입국심사.cpp">
       <Filter>소스 파일\Programmers\이진탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="2+1세일.cpp">
+      <Filter>소스 파일\Test02</Filter>
+    </ClCompile>
+    <ClCompile Include="눈송이.cpp">
+      <Filter>소스 파일\Test02</Filter>
+    </ClCompile>
+    <ClCompile Include="7Krokod게임.cpp">
+      <Filter>소스 파일\Test02</Filter>
+    </ClCompile>
+    <ClCompile Include="격자상의 경로.cpp">
+      <Filter>소스 파일\Test02</Filter>
+    </ClCompile>
+    <ClCompile Include="점프.cpp">
+      <Filter>소스 파일\Test02</Filter>
+    </ClCompile>
+    <ClCompile Include="6.cpp">
+      <Filter>소스 파일\Test02</Filter>
+    </ClCompile>
+    <ClCompile Include="소가길을건너간이유4.cpp">
+      <Filter>소스 파일\Chapter 7 최단 경로 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="파티.cpp">
+      <Filter>소스 파일\Chapter 7 최단 경로 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="합승 택시 요금.cpp">
+      <Filter>소스 파일\Chapter 7 최단 경로 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="다음 순열.cpp">
+      <Filter>소스 파일\Chapter 7 최단 경로 알고리즘</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
