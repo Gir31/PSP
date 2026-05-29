@@ -55,7 +55,7 @@ vector<vector<int>> Floyd_Warshall(vector<vector<pair<int, int>>>& graph)
 int solution(int n, int s, int a, int b, vector<vector<int>> fares) {
     int answer = 0;
 
-	vector<vector<pair<int, int>>> graph(n + 1, vector<pair<int, int>>(n + 1));
+	vector<vector<pair<int, int>>> graph(n + 1);
 	for (vector<int> fare : fares) {
 		graph[fare[0]].push_back({ fare[1], fare[2] });
 		graph[fare[1]].push_back({ fare[0], fare[2] });

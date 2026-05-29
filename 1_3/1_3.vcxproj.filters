@@ -297,5 +297,8 @@
     <ClCompile Include="다음 순열.cpp">
       <Filter>소스 파일\Chapter 7 최단 경로 알고리즘</Filter>
     </ClCompile>
+    <ClCompile Include="장애물.cpp">
+      <Filter>소스 파일\Chapter 7 최단 경로 알고리즘</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

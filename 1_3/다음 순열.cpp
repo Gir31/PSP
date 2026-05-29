@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -13,5 +14,14 @@ int main()
 		for (int j = 0; j < N; ++j)
 			cin >> arr[i][j];
 
+	for (int i = 0; i < K; ++i)
+	{
+		next_permutation(arr[i].begin(), arr[i].end());
+
+		for(int j = 0; j < N; ++j)
+			cout << arr[i][j] << " ";
+		cout << "\n";	
+	}
+		
 	return 0;
 }
