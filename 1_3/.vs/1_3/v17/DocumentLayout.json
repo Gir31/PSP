@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\4-1\\PSP\\PSP\\1_3\\",
+  "WorkspaceRootPath": "D:\\PSP\\1_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|D:\\4-1\\PSP\\PSP\\1_3\\\uB4F1\uAD63\uAE38.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|solutionrelative:\uB4F1\uAD63\uAE38.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|D:\\PSP\\1_3\\\uC7A5\uC560\uBB3C.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|solutionrelative:\uC7A5\uC560\uBB3C.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|D:\\4-1\\PSP\\PSP\\1_3\\\uC815\uC218\uC0BC\uAC01\uD615.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|solutionrelative:\uC815\uC218\uC0BC\uAC01\uD615.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|D:\\PSP\\1_3\\\uD30C\uD2F0.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|solutionrelative:\uD30C\uD2F0.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|D:\\4-1\\PSP\\PSP\\1_3\\RGB\uAC70\uB9AC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|solutionrelative:RGB\uAC70\uB9AC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|D:\\PSP\\1_3\\\uD569\uC2B9 \uD0DD\uC2DC \uC694\uAE08.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|solutionrelative:\uD569\uC2B9 \uD0DD\uC2DC \uC694\uAE08.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|D:\\4-1\\PSP\\PSP\\1_3\\\uB0B4\uB824\uAC00\uAE30.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|solutionrelative:\uB0B4\uB824\uAC00\uAE30.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|D:\\PSP\\1_3\\\uB2E4\uC74C \uC21C\uC5F4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|solutionrelative:\uB2E4\uC74C \uC21C\uC5F4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,69 +31,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "\uB4F1\uAD63\uAE38.cpp",
-              "DocumentMoniker": "D:\\4-1\\PSP\\PSP\\1_3\\\uB4F1\uAD63\uAE38.cpp",
-              "RelativeDocumentMoniker": "\uB4F1\uAD63\uAE38.cpp",
-              "ToolTip": "D:\\4-1\\PSP\\PSP\\1_3\\\uB4F1\uAD63\uAE38.cpp",
-              "RelativeToolTip": "\uB4F1\uAD63\uAE38.cpp",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBcAAAAJAAAAAAAAAA==",
+              "Title": "\uC7A5\uC560\uBB3C.cpp",
+              "DocumentMoniker": "D:\\PSP\\1_3\\\uC7A5\uC560\uBB3C.cpp",
+              "RelativeDocumentMoniker": "\uC7A5\uC560\uBB3C.cpp",
+              "ToolTip": "D:\\PSP\\1_3\\\uC7A5\uC560\uBB3C.cpp",
+              "RelativeToolTip": "\uC7A5\uC560\uBB3C.cpp",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswDAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-04T03:35:26.896Z",
+              "WhenOpened": "2026-05-29T13:43:26.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "\uC815\uC218\uC0BC\uAC01\uD615.cpp",
-              "DocumentMoniker": "D:\\4-1\\PSP\\PSP\\1_3\\\uC815\uC218\uC0BC\uAC01\uD615.cpp",
-              "RelativeDocumentMoniker": "\uC815\uC218\uC0BC\uAC01\uD615.cpp",
-              "ToolTip": "D:\\4-1\\PSP\\PSP\\1_3\\\uC815\uC218\uC0BC\uAC01\uD615.cpp",
-              "RelativeToolTip": "\uC815\uC218\uC0BC\uAC01\uD615.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Title": "\uD30C\uD2F0.cpp",
+              "DocumentMoniker": "D:\\PSP\\1_3\\\uD30C\uD2F0.cpp",
+              "RelativeDocumentMoniker": "\uD30C\uD2F0.cpp",
+              "ToolTip": "D:\\PSP\\1_3\\\uD30C\uD2F0.cpp",
+              "RelativeToolTip": "\uD30C\uD2F0.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-04T03:25:33.323Z"
+              "WhenOpened": "2026-05-29T13:43:14.821Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RGB\uAC70\uB9AC.cpp",
-              "DocumentMoniker": "D:\\4-1\\PSP\\PSP\\1_3\\RGB\uAC70\uB9AC.cpp",
-              "RelativeDocumentMoniker": "RGB\uAC70\uB9AC.cpp",
-              "ToolTip": "D:\\4-1\\PSP\\PSP\\1_3\\RGB\uAC70\uB9AC.cpp",
-              "RelativeToolTip": "RGB\uAC70\uB9AC.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "\uD569\uC2B9 \uD0DD\uC2DC \uC694\uAE08.cpp",
+              "DocumentMoniker": "D:\\PSP\\1_3\\\uD569\uC2B9 \uD0DD\uC2DC \uC694\uAE08.cpp",
+              "RelativeDocumentMoniker": "\uD569\uC2B9 \uD0DD\uC2DC \uC694\uAE08.cpp",
+              "ToolTip": "D:\\PSP\\1_3\\\uD569\uC2B9 \uD0DD\uC2DC \uC694\uAE08.cpp",
+              "RelativeToolTip": "\uD569\uC2B9 \uD0DD\uC2DC \uC694\uAE08.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-04T03:24:16.822Z"
+              "WhenOpened": "2026-05-29T13:43:09.963Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "\uB0B4\uB824\uAC00\uAE30.cpp",
-              "DocumentMoniker": "D:\\4-1\\PSP\\PSP\\1_3\\\uB0B4\uB824\uAC00\uAE30.cpp",
-              "RelativeDocumentMoniker": "\uB0B4\uB824\uAC00\uAE30.cpp",
-              "ToolTip": "D:\\4-1\\PSP\\PSP\\1_3\\\uB0B4\uB824\uAC00\uAE30.cpp",
-              "RelativeToolTip": "\uB0B4\uB824\uAC00\uAE30.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAADAAAAAAAAAA==",
+              "Title": "\uB2E4\uC74C \uC21C\uC5F4.cpp",
+              "DocumentMoniker": "D:\\PSP\\1_3\\\uB2E4\uC74C \uC21C\uC5F4.cpp",
+              "RelativeDocumentMoniker": "\uB2E4\uC74C \uC21C\uC5F4.cpp",
+              "ToolTip": "D:\\PSP\\1_3\\\uB2E4\uC74C \uC21C\uC5F4.cpp",
+              "RelativeToolTip": "\uB2E4\uC74C \uC21C\uC5F4.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-04T02:54:25.947Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2026-05-29T13:42:27.084Z",
+              "EditorCaption": ""
             }
           ]
         }

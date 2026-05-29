@@ -1,1 +1,48 @@
+# ====================================================================
+# [Visual Studio & C++ 관련 핵심 제외 항목]
+# ====================================================================
+
+## Visual Studio 캐시 및 자동완성(인텔리센스) 데이터베이스 (용량 압박 주원인)
+*.vsidx
+*.VC.db
+*.VC.opendb
+*.ncb
+*.sdf
+*.opensdf
+ipch/
 *.ipch
+
+## Visual Studio 사용자 개인 설정 (공유 시 팀원 간 충돌 발생)
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## 빌드 결과물 및 아티팩트 (언제든 다시 빌드 가능한 파일들)
+bin/
+Bin/
+obj/
+Obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+*.exe
+*.dll
+*.pdb
+
+# ====================================================================
+# [기타 도구 및 OS 관련]
+# ====================================================================
+## NuGet Packages
+*.nuget.props
+*.nuget.targets
+packages/
+
+## OS-specific files
+Thumbs.db
+Desktop.ini
+.DS_Store

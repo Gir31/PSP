@@ -312,5 +312,8 @@
     <ClCompile Include="미로 탈출.cpp">
       <Filter>소스 파일\Programmers\다익스트라</Filter>
     </ClCompile>
+    <ClCompile Include="장애물.cpp">
+      <Filter>소스 파일\Chapter 7 최단 경로 알고리즘</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
