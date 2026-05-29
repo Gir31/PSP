@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\Test02">
       <UniqueIdentifier>{81945bfe-5272-4c07-878d-538c96e407bb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Programmers\다익스트라">
+      <UniqueIdentifier>{26fdfefb-6e28-42ec-901f-781c6668d291}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="combi.cpp">
@@ -296,6 +299,18 @@
     </ClCompile>
     <ClCompile Include="다음 순열.cpp">
       <Filter>소스 파일\Chapter 7 최단 경로 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="배달.cpp">
+      <Filter>소스 파일\Programmers\다익스트라</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 먼 노드.cpp">
+      <Filter>소스 파일\Programmers\다익스트라</Filter>
+    </ClCompile>
+    <ClCompile Include="등산코스 정하기.cpp">
+      <Filter>소스 파일\Programmers\다익스트라</Filter>
+    </ClCompile>
+    <ClCompile Include="미로 탈출.cpp">
+      <Filter>소스 파일\Programmers\다익스트라</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
