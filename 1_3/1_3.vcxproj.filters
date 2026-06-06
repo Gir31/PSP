@@ -58,6 +58,9 @@
     <Filter Include="소스 파일\Programmers\다익스트라">
       <UniqueIdentifier>{26fdfefb-6e28-42ec-901f-781c6668d291}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 8 기타 그래프 이론">
+      <UniqueIdentifier>{c98f9848-68c5-4d31-ad46-99ddc28dd19b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="combi.cpp">
@@ -314,6 +317,21 @@
     </ClCompile>
     <ClCompile Include="장애물.cpp">
       <Filter>소스 파일\Chapter 7 최단 경로 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="도시분할계획.cpp">
+      <Filter>소스 파일\Chapter 8 기타 그래프 이론</Filter>
+    </ClCompile>
+    <ClCompile Include="선수과목.cpp">
+      <Filter>소스 파일\Chapter 8 기타 그래프 이론</Filter>
+    </ClCompile>
+    <ClCompile Include="작업.cpp">
+      <Filter>소스 파일\Chapter 8 기타 그래프 이론</Filter>
+    </ClCompile>
+    <ClCompile Include="개인정보 수집 유효기간.cpp">
+      <Filter>소스 파일\Chapter 8 기타 그래프 이론</Filter>
+    </ClCompile>
+    <ClCompile Include="신규 아이디 추천.cpp">
+      <Filter>소스 파일\Chapter 8 기타 그래프 이론</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
