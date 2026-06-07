@@ -63,12 +63,12 @@ int solution(int n, int s, int a, int b, vector<vector<int>> fares) {
 
 	///////////////////////////////////////////////////////////////
 	// Floyd-Warshall 풀이법
-	vector<vector<int>> Floyd_Warshall_dist = Floyd_Warshall(graph);
-	int min_cost_Floyd_Warshall = 1e9;
-	for (int k = 1; k <= n; ++k)
-	{
-		min_cost_Floyd_Warshall = min(min_cost_Floyd_Warshall, Floyd_Warshall_dist[s][k] + Floyd_Warshall_dist[k][a] + Floyd_Warshall_dist[k][b]);
-	}
+	//vector<vector<int>> Floyd_Warshall_dist = Floyd_Warshall(graph);
+	//int min_cost_Floyd_Warshall = 1e9;
+	//for (int k = 1; k <= n; ++k)
+	//{
+	//	min_cost_Floyd_Warshall = min(min_cost_Floyd_Warshall, Floyd_Warshall_dist[s][k] + Floyd_Warshall_dist[k][a] + Floyd_Warshall_dist[k][b]);
+	//}
 
 	///////////////////////////////////////////////////////////////
 	// Dijkstra 풀이법
