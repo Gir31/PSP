@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\4-1\\PSP\\PSP\\1_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|D:\\4-1\\PSP\\PSP\\1_3\\\uBC84\uC2A4 \uACBD\uB85C.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|solutionrelative:\uBC84\uC2A4 \uACBD\uB85C.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|D:\\4-1\\PSP\\PSP\\1_3\\\uBBF8\uB85C \uD0C8\uCD9C.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|solutionrelative:\uBBF8\uB85C \uD0C8\uCD9C.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|D:\\4-1\\PSP\\PSP\\1_3\\\uD569\uC2B9 \uD0DD\uC2DC \uC694\uAE08.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|solutionrelative:\uD569\uC2B9 \uD0DD\uC2DC \uC694\uAE08.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|D:\\4-1\\PSP\\PSP\\1_3\\[\uCE74\uCE74\uC624] \uACBD\uC8FC\uB85C \uAC74\uC124.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{22AC55AE-0565-440C-B193-ACA50B26D758}|1_3.vcxproj|solutionrelative:[\uCE74\uCE74\uC624] \uACBD\uC8FC\uB85C \uAC74\uC124.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,28 +22,49 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "\uD569\uC2B9 \uD0DD\uC2DC \uC694\uAE08.cpp",
-              "DocumentMoniker": "D:\\4-1\\PSP\\PSP\\1_3\\\uD569\uC2B9 \uD0DD\uC2DC \uC694\uAE08.cpp",
-              "RelativeDocumentMoniker": "\uD569\uC2B9 \uD0DD\uC2DC \uC694\uAE08.cpp",
-              "ToolTip": "D:\\4-1\\PSP\\PSP\\1_3\\\uD569\uC2B9 \uD0DD\uC2DC \uC694\uAE08.cpp",
-              "RelativeToolTip": "\uD569\uC2B9 \uD0DD\uC2DC \uC694\uAE08.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "\uBBF8\uB85C \uD0C8\uCD9C.cpp",
+              "DocumentMoniker": "D:\\4-1\\PSP\\PSP\\1_3\\\uBBF8\uB85C \uD0C8\uCD9C.cpp",
+              "RelativeDocumentMoniker": "\uBBF8\uB85C \uD0C8\uCD9C.cpp",
+              "ToolTip": "D:\\4-1\\PSP\\PSP\\1_3\\\uBBF8\uB85C \uD0C8\uCD9C.cpp",
+              "RelativeToolTip": "\uBBF8\uB85C \uD0C8\uCD9C.cpp",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwD0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-07T08:41:54.411Z",
+              "WhenOpened": "2026-06-08T08:35:07.144Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "288e4c0a-524c-43f7-88a9-65653d960784",
+        "Display": 0,
+        "X": -106,
+        "Y": 518,
+        "Width": 747,
+        "Height": 897,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "\uBC84\uC2A4 \uACBD\uB85C.cpp",
-              "DocumentMoniker": "D:\\4-1\\PSP\\PSP\\1_3\\\uBC84\uC2A4 \uACBD\uB85C.cpp",
-              "RelativeDocumentMoniker": "\uBC84\uC2A4 \uACBD\uB85C.cpp",
-              "ToolTip": "D:\\4-1\\PSP\\PSP\\1_3\\\uBC84\uC2A4 \uACBD\uB85C.cpp",
-              "RelativeToolTip": "\uBC84\uC2A4 \uACBD\uB85C.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwCIAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "[\uCE74\uCE74\uC624] \uACBD\uC8FC\uB85C \uAC74\uC124.cpp",
+              "DocumentMoniker": "D:\\4-1\\PSP\\PSP\\1_3\\[\uCE74\uCE74\uC624] \uACBD\uC8FC\uB85C \uAC74\uC124.cpp",
+              "RelativeDocumentMoniker": "[\uCE74\uCE74\uC624] \uACBD\uC8FC\uB85C \uAC74\uC124.cpp",
+              "ToolTip": "D:\\4-1\\PSP\\PSP\\1_3\\[\uCE74\uCE74\uC624] \uACBD\uC8FC\uB85C \uAC74\uC124.cpp",
+              "RelativeToolTip": "[\uCE74\uCE74\uC624] \uACBD\uC8FC\uB85C \uAC74\uC124.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-07T08:41:18.259Z",
+              "WhenOpened": "2026-06-08T08:42:25.165Z",
               "EditorCaption": ""
             }
           ]
