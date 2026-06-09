@@ -39,8 +39,8 @@ vector<vector<int>> comb(vector<int> lst, int n) {
 }
 
 int main() {
-    vector<int> data = { 1, 2, 3, 4 };
-    int n = 2;
+    vector<int> data = { 1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6, 1, 2 ,3 ,4, 5, 6 };
+    int n = 3;
 
     vector<vector<int>> results = comb(data, n);
 

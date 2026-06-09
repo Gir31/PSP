@@ -61,6 +61,30 @@
     <Filter Include="소스 파일\Chapter 8 기타 그래프 이론">
       <UniqueIdentifier>{c98f9848-68c5-4d31-ad46-99ddc28dd19b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Programmers\힙">
+      <UniqueIdentifier>{a9dcb153-fd49-4965-a733-352e3ef15aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Programmers\위상정렬">
+      <UniqueIdentifier>{4c2bf186-9e7e-4186-b034-75774fc5dfa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 9 기타 알고리즘">
+      <UniqueIdentifier>{43a3c809-7de0-4e15-bf03-6c995715654d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Programmers\누적합">
+      <UniqueIdentifier>{6c5ecf2a-a797-4d53-afbe-cfbc34d1b1e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Programmers\투포인터">
+      <UniqueIdentifier>{b33d17b8-ccb2-4ef4-9013-79d23472b3bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Programmers\플로이드-워셜">
+      <UniqueIdentifier>{538e5a2f-556d-4662-90fb-feecca189cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Programmers\서로소 집합">
+      <UniqueIdentifier>{f2490947-b97e-4232-b245-05f84a072237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Programmers\소수 판별 및 에라토스테네스의 체">
+      <UniqueIdentifier>{0fc8f0c1-c1a4-48f4-a20c-c641da0ee0fe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="combi.cpp">
@@ -344,6 +368,105 @@
     </ClCompile>
     <ClCompile Include="버스 경로.cpp">
       <Filter>소스 파일\Programmers\다익스트라</Filter>
+    </ClCompile>
+    <ClCompile Include="[PCCP 모의고사] 신입사원 교육.cpp">
+      <Filter>소스 파일\Programmers\힙</Filter>
+    </ClCompile>
+    <ClCompile Include="[PCCP 모의고사] 운영체제.cpp">
+      <Filter>소스 파일\Programmers\힙</Filter>
+    </ClCompile>
+    <ClCompile Include="[카카오] 표 편집.cpp">
+      <Filter>소스 파일\Programmers\힙</Filter>
+    </ClCompile>
+    <ClCompile Include="더 맵게.cpp">
+      <Filter>소스 파일\Programmers\힙</Filter>
+    </ClCompile>
+    <ClCompile Include="이중우선순위큐.cpp">
+      <Filter>소스 파일\Programmers\힙</Filter>
+    </ClCompile>
+    <ClCompile Include="디스크 컨트롤러.cpp">
+      <Filter>소스 파일\Programmers\힙</Filter>
+    </ClCompile>
+    <ClCompile Include="야근 지수.cpp">
+      <Filter>소스 파일\Programmers\힙</Filter>
+    </ClCompile>
+    <ClCompile Include="[야근 지수 변형 문제] 조선소 배상 비용.cpp">
+      <Filter>소스 파일\Programmers\힙</Filter>
+    </ClCompile>
+    <ClCompile Include="[카카오] 동굴 탐험.cpp">
+      <Filter>소스 파일\Programmers\위상정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="소수 판별.cpp">
+      <Filter>소스 파일\Chapter 9 기타 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="에라토스테네스의 체 알고리즘.cpp">
+      <Filter>소스 파일\Chapter 9 기타 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="투포인터를 이용한 부분 연속 수열 찾기.cpp">
+      <Filter>소스 파일\Chapter 9 기타 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="구간합.cpp">
+      <Filter>소스 파일\Chapter 9 기타 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="[카카오] 주사위 고르기.cpp">
+      <Filter>소스 파일\Programmers\누적합</Filter>
+    </ClCompile>
+    <ClCompile Include="[카카오] 두 큐 합 같게 만들기.cpp">
+      <Filter>소스 파일\Programmers\투포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="[카카오] 광고 삽입.cpp">
+      <Filter>소스 파일\Programmers\투포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="[카카오] 보석 쇼핑.cpp">
+      <Filter>소스 파일\Programmers\투포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="부대복귀.cpp">
+      <Filter>소스 파일\Programmers\다익스트라</Filter>
+    </ClCompile>
+    <ClCompile Include="리코쳇 로봇.cpp">
+      <Filter>소스 파일\Programmers\다익스트라</Filter>
+    </ClCompile>
+    <ClCompile Include="지형 이동.cpp">
+      <Filter>소스 파일\Programmers\다익스트라</Filter>
+    </ClCompile>
+    <ClCompile Include="카드 짝 맞추기.cpp">
+      <Filter>소스 파일\Programmers\다익스트라</Filter>
+    </ClCompile>
+    <ClCompile Include="순위.cpp">
+      <Filter>소스 파일\Programmers\플로이드-워셜</Filter>
+    </ClCompile>
+    <ClCompile Include="네트워크.cpp">
+      <Filter>소스 파일\Programmers\서로소 집합</Filter>
+    </ClCompile>
+    <ClCompile Include="섬 연결하기.cpp">
+      <Filter>소스 파일\Programmers\서로소 집합</Filter>
+    </ClCompile>
+    <ClCompile Include="호텔 방 배정.cpp">
+      <Filter>소스 파일\Programmers\서로소 집합</Filter>
+    </ClCompile>
+    <ClCompile Include="파괴되지 않은 건물.cpp">
+      <Filter>소스 파일\Programmers\누적합</Filter>
+    </ClCompile>
+    <ClCompile Include="연속 부분 수열 합의 개수.cpp">
+      <Filter>소스 파일\Programmers\누적합</Filter>
+    </ClCompile>
+    <ClCompile Include="거스름돈.cpp">
+      <Filter>소스 파일\Programmers\누적합</Filter>
+    </ClCompile>
+    <ClCompile Include="구명보트.cpp">
+      <Filter>소스 파일\Programmers\투포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="연속된 부분 수열의 합.cpp">
+      <Filter>소스 파일\Programmers\투포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="소수 만들기.cpp">
+      <Filter>소스 파일\Programmers\소수 판별 및 에라토스테네스의 체</Filter>
+    </ClCompile>
+    <ClCompile Include="소수 찾기.cpp">
+      <Filter>소스 파일\Programmers\소수 판별 및 에라토스테네스의 체</Filter>
+    </ClCompile>
+    <ClCompile Include="k진수에서 소수 개수 구하기.cpp">
+      <Filter>소스 파일\Programmers\소수 판별 및 에라토스테네스의 체</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
