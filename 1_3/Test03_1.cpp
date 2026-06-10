@@ -5,75 +5,53 @@
 
 using namespace std;
 
-struct GAS_STATION
-{
-	int range;
-	int gas;
+struct GAS_STATION {
+    int range;
+    int gas;
 };
 
-bool compare(const GAS_STATION& a, const GAS_STATION& b)
-{
-	return a.range < b.range;
+bool compare(const GAS_STATION& a, const GAS_STATION& b) {
+    return a.range < b.range;
 }
 
-struct ComparePQ
-{
-	bool operator()(const GAS_STATION& a, const GAS_STATION& b) {
-		if (a.gas != b.gas) {
-			return a.range < b.range;
-		}
-		return a.gas < b.gas;
-	}
-};
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
-int main()
-{
-	int N = 0;
-	cin >> N;
-	vector<GAS_STATION> gs;
-	for (int i = 0; i < N; ++i)
-	{
-		int range = 0, gas = 0;
-		cin >> range >> gas;
-		gs.push_back({ range, gas });
-	}
-	sort(gs.begin(), gs.end(), compare);
+    int N;
+    if (!(cin >> N)) return 0;
 
-	int destination = 0;
-	int curr_gas = 0;
-	cin >> destination >> curr_gas;
+    vector<GAS_STATION> gs(N);
+    for (int i = 0; i < N; ++i) {
+        cin >> gs[i].range >> gs[i].gas;
+    }
+    sort(gs.begin(), gs.end(), compare);
 
-	priority_queue<GAS_STATION, vector<GAS_STATION>, ComparePQ> pq;
-	pq.push({0, curr_gas});
+    int destination, curr_gas;
+    cin >> destination >> curr_gas;
 
-	long long current_range = 0;
-	int idx = 0;
-	int total_gas_station = N;
+    priority_queue<int> pq;
+    long long current_range = curr_gas;
+    int idx = 0;
+    int answer = 0;
 
-	int answer = -1;
-	while (idx < total_gas_station || !pq.empty())
-	{
-		if (pq.empty() && current_range < gs[idx].range) {
-			answer = -1;
-			break;
-		}
+    while (current_range < destination) {
+        while (idx < N && gs[idx].range <= current_range) {
+            pq.push(gs[idx].gas);
+            idx++;
+        }
 
-		while (idx < total_gas_station && gs[idx].range <= current_range) {
-			pq.push(gs[idx]);
-			idx++;
-		}
+        if (pq.empty()) {
+            answer = -1;
+            break;
+        }
 
-		if (!pq.empty()) {
-			GAS_STATION active = pq.top();
-			pq.pop();
-			current_range += active.gas;
-			answer++;
-		}
+        current_range += pq.top();
+        pq.pop();
+        answer++;
+    }
 
-		if (current_range >= destination) break;
-	}
+    cout << answer << "\n";
 
-	cout << answer << endl;
-
-	return 0;
+    return 0;
 }

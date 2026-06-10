@@ -1,54 +1,37 @@
 #include <iostream>
 #include <vector>
-#include <set>
-#include <map>
+#include <algorithm>
 
 using namespace std;
 
-int main()
-{
-	int N = 0, K = 0;
-	cin >> N >> K;
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
-	vector<int> a;
-	for (int i = 0; i < N; ++i)
-	{
-		int num = 0;
-		cin >> num;
-		a.push_back(num);
-	}
+    int n, k;
+    if (!(cin >> n >> k)) return 0;
 
-	set<int> intType(a.begin(), a.end());
-	int totalInt=intType.size();
-	map<int, int> m;
-
-
-	int start = 0;
-	int end = 0;
-	int len = 0;
-    vector<int> answer;
-    while (true) {
-        if (m.size() == totalInt) {
-            len = end - start;
-
-            m[a[start]]--;
-            if (m[a[start]] == 0) {
-                m.erase(a[start]);
-            }
-
-
-            start++;
-        }
-        else if (end == a.size()) {
-            break;
-        }
-        else {
-            m[a[end]]++;
-            end++;
-        }
+    vector<int> a(n);
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
     }
 
-    cout << answer[1] - answer[0];
+    vector<int> counter(100001, 0);
+    int max_length = 0;
+    int left = 0;
 
-	return 0;
+    for (int right = 0; right < n; right++) {
+        counter[a[right]]++;
+
+        while (counter[a[right]] > k) {
+            counter[a[left]]--;
+            left++;
+        }
+
+        max_length = max(max_length, right - left + 1);
+    }
+
+    cout << max_length;
+
+    return 0;
 }
