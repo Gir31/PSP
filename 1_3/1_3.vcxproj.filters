@@ -85,6 +85,9 @@
     <Filter Include="소스 파일\Programmers\소수 판별 및 에라토스테네스의 체">
       <UniqueIdentifier>{0fc8f0c1-c1a4-48f4-a20c-c641da0ee0fe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Test03">
+      <UniqueIdentifier>{08b350fd-8221-41f8-a47f-6d61912b0a1f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="combi.cpp">
@@ -467,6 +470,24 @@
     </ClCompile>
     <ClCompile Include="k진수에서 소수 개수 구하기.cpp">
       <Filter>소스 파일\Programmers\소수 판별 및 에라토스테네스의 체</Filter>
+    </ClCompile>
+    <ClCompile Include="Test03_1.cpp">
+      <Filter>소스 파일\Test03</Filter>
+    </ClCompile>
+    <ClCompile Include="Test03_2.cpp">
+      <Filter>소스 파일\Test03</Filter>
+    </ClCompile>
+    <ClCompile Include="Test03_3.cpp">
+      <Filter>소스 파일\Test03</Filter>
+    </ClCompile>
+    <ClCompile Include="Test03_4.cpp">
+      <Filter>소스 파일\Test03</Filter>
+    </ClCompile>
+    <ClCompile Include="Test03_5.cpp">
+      <Filter>소스 파일\Test03</Filter>
+    </ClCompile>
+    <ClCompile Include="Test03_6.cpp">
+      <Filter>소스 파일\Test03</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
